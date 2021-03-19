@@ -1,0 +1,83 @@
+body{
+    position: relative;
+    
+}
+.continer{
+    background: url(../images/success.jpg) no-repeat center center/cover;
+    height: 660px;
+
+}
+.steps{
+    height: 630px;
+    width: 1200px;
+    background-color: rgba(0,0, 0,0.8);
+}
+div{
+    width: 150px;
+    background-color:slategray;
+    color: #fff;
+    padding:  30px;
+    position: absolute;
+    font-weight: bold;
+ 
+
+}
+h1{
+    font-size: 60px;
+    text-transform: capitalize;
+    text-align: center;
+    color: palevioletred;
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+.div1{
+    top: 70px;
+    left: 10px;
+    background-color:lawngreen;
+}
+.div2{
+    top: 148px;
+    left: 210px;
+    background-color: tomato;
+}
+
+.div3{
+    top: 225px;
+    left: 418px;
+    background-color: teal;
+}
+.div4{
+    top: 305px;
+    left: 620px;
+    background-color:lightcoral;
+}
+.div5{
+    top: 385px;
+    left: 820px;
+    background-color: blueviolet;
+}
+.div6{
+    top: 465px;
+    left: 1029px;
+    background-color: brown;
+}
+@media (max-width:760px) {
+h1{
+    font-size: 20px;
+    left:10px ;
+}
+
+
+.continer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.step{
+
+    left: auto;
+    padding-top: 20px;
+}
+
+}
