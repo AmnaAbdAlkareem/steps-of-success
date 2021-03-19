@@ -4,11 +4,11 @@ body{
 }
 .continer{
     background: url(../images/success.jpg) no-repeat center center/cover;
-    height: 660px;
+    height: 650px;
 
 }
 .steps{
-    height: 630px;
+    height: 600px;
     width: 1200px;
     background-color: rgba(0,0, 0,0.8);
 }
